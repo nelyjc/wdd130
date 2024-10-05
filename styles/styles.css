@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-    background-color: steelblue;
+    background-color steelblue;
     padding: 10px;
+}
 nav a {
     color: white;
     display: block;
@@ -54,7 +54,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-/* Class Selectors*/
+/*Class Selectors*/
 .box {
     margin: 1rem;
     border: 1px solid rgba(36, 126, 106, 0.1);
