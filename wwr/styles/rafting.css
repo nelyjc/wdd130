@@ -9,8 +9,8 @@ h1 {
     color: #19535f;
     position: absolute;
     float: right;
-    opacity: 100;
-    
+    opacity: 1;
+
 }   
 .hero img {
     display: block;
@@ -23,8 +23,15 @@ main img {
     border: 1px solid #c3d5c6;
     padding: 2px;
     box-shadow: 0 0 10px #005c7a;
-    float: absolute;
-    margin: 0 0 1rem 1rem;
+    float: left;
+    position: relative;
+    margin: 0
+    0 0 1rem 1rem;
+
+}
+section{
+    margin: 10px;
+
 }
 p {
     padding: 10px;
