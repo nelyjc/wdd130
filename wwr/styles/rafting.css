@@ -1,23 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
+}
+div {
+    position: relative;
 }
 h1 {
     color: #19535f;
-
-.article {
     position: absolute;
-
+    float: right;
+    opacity: 100;
+    
 }   
-}
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
-
 }
 main img {
     width: 150px;
@@ -25,7 +23,7 @@ main img {
     border: 1px solid #c3d5c6;
     padding: 2px;
     box-shadow: 0 0 10px #005c7a;
-    float: right;
+    float: absolute;
     margin: 0 0 1rem 1rem;
 }
 p {
@@ -37,25 +35,9 @@ main {
     max-width: 840px;
 }
 
-aside {
-    width: 20rem;
-    text-align: center;
-    position: relative;
-}
-aside img {
-    width: 200px; 
-    height: auto;
-}
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-    font-size: medium;
-}
 main img {
-    width: 150px;
+    width: 400px;
     height: auto;
-    float: right;
 }
 p { padding: 0;}
 
@@ -65,13 +47,7 @@ footer {
     text-align: center;
 }
 /*Class Selectors*/
-.box {
-    margin: 1rem;
-    border: 1px solid rgba(3, 44, 35, 0.1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-}
+
 .indent{
     padding-left: 2rem;
 }
