@@ -4,37 +4,92 @@
 	    --accent1-color: #c3d5c6;
 	    --accent2-color: #e0e0e0;
 	}
-
-	body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Two columns: 1 for logo, 3 for nav */
+    align-items: center; /* Vertically centers both the logo and the navigation */
+    padding: 10px 20px;
+    background-color:#005c7a
+}
+	
+body {
 	    font-family: "Roboto", sans-serif;
+        margin: 0px
 	}
-
+ main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 	h1,
 	h2,
 	h3,
 	h4,
 	h5,
 	h6 {
-	    font-family: "Montserrat", serif;
-	}
-
-
-	nav {
-	    font-size: larger;
-	    font: #005c7a;
-	}
-
-	.hero {
-	    position: relative;
+	    text-align: center;
+        font-family: Montserrat;
+	    font-style: bold;
+	    color: #ffffff;
+	    font-size: 700 em;
+    }
         
+.nav ul{
+    display: flex;
+    list-style: none;
+    background-color: #005c7a;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-size: larger;
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    display: : inline-block;
+    flex: 1 1 100%; 
+    margin: 0 10px
+}
+.nav ul li a{
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+.nav a:hover {
+    background-color: #c3d5c6(o, 0%, 10%);  
+    transition: all;
+}
+
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: auto;
+	height: auto;
+    position: relative; 
+}
+    
+.hero {
+	    position: relative;
 	}
 
-	.hero img {
+.hero img {
 	    display: block;
 	    width: 100%;
 	    height: auto;
 
 	}
+
 
 	.hero h1 {
 	    position: absolute;
@@ -42,7 +97,7 @@
 	    left: 0;
 	    right: 0;
 	    text-align: center;
-        
+
 	}
 
 	.hero article {
@@ -58,3 +113,23 @@
 	    float: right;
 	    width: 200px;
 	}
+/** History starts */
+
+.history {
+    padding: 40px;
+    background-color:#005c7a;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.history h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.history-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
