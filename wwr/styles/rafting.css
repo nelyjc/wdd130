@@ -189,17 +189,16 @@ margin: 5em;
 		gap: 20px;
 	}
 
-	/* Join US on home page*/
 
-	
 /** adventure on contact page*/
 	
 .adventureguides {
 	display: grid;
-	margin: 5em;
+	margin: 2em;
 	align-items: center;
 	color:#01090c;
-	grid-auto-rows: 240px;
+	grid-auto-rows: 140;
+	background-color: var(--accent1-color)
 
 }
 .adventureguides figure {
@@ -208,7 +207,7 @@ margin: 5em;
 	margin: auto;
 }
 
-/**********************adventures*******************/
+/***adventures on about us page*******************/
 
 figcaption {
 	background-color: #19535F;
@@ -231,9 +230,9 @@ figcaption {
 	}
 
 	figure {
-		border: thin #c0c0c0 solid;
+		border:  #c0c0c0 solid;
 		display: flex;
-		flex-flow: column;
+		flex-flow: row;
 		padding: 5px;
 		max-width: 220px;
 		margin: auto;
@@ -248,8 +247,8 @@ figcaption {
 		text-align: center;}
 
 
-		/***************************************************/
-		/* Homepage STarts*/
+/**********************************/
+/* Homepage STarts*/
 
 .hero-msg {
 			justify-content: center;
@@ -274,7 +273,7 @@ figcaption {
 	color: black;
 	font-size: large;
 }
-/**2 pictures for home*/
+/**2 pictures for homepage*/
 
 		.card1 {
 			margin: 100px 0;
