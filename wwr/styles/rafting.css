@@ -199,6 +199,7 @@ margin: 5em;
 	margin: 5em;
 	align-items: center;
 	color:#01090c;
+	grid-auto-rows: 240px;
 
 }
 .adventureguides figure {
@@ -244,13 +245,13 @@ figcaption {
 		color: #fff;
 		font: italic smaller sans-serif;
 		padding: 3px;
-		text-align: center;
+		text-align: center;}
 
 
 		/***************************************************/
 		/* Homepage STarts*/
 
-		.hero-msg {
+.hero-msg {
 			justify-content: center;
 		}
 
@@ -267,7 +268,47 @@ figcaption {
 			background-color: #13181475;
 			justify-self: center;
 		}
-	}
+/**2 pictures for home*/
+
+		.card1 {
+			margin: 100px 0;
+			grid-row: 3;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		.card1_img {
+			border: 10px solid #fff;
+			width: 500px;
+			transition: transform .5s;
+			box-shadow: 5px 5px 10px #6f7364;
+			margin: 20px 0;
+		}
+		
+		.card-caption {
+			font-size: 1.4rem;
+		}
+		.card2 {
+			margin: 100px 0;
+			grid-row: 3;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		.card2_img {
+			border: 10px solid #fff;
+			width: 500px;
+			transition: transform .5s;
+			box-shadow: 5px 5px 10px #6f7364;
+			margin: 20px 0;
+		}
+		
+		.card-caption {
+			font-size: 1.4rem;
+		}
+		
 
 	.newsletter {
 		grid-column: 4/9;
@@ -289,8 +330,8 @@ figcaption {
 	}
 
 	.newsletter p {
-		justify-self: center;
-		font-size: 1.5em;
+		align: center;
+		font-size: 1.2em;
 		color: var(--black);
 		margin: 1em 0 0 0;
 	}
