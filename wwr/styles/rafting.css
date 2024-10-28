@@ -267,7 +267,13 @@ figcaption {
 			color: var(--white);
 			background-color: #13181475;
 			justify-self: center;
+
 		}
+.offerings {
+	background-color: var(--accent1-color);
+	color: black;
+	font-size: large;
+}
 /**2 pictures for home*/
 
 		.card1 {
