@@ -128,6 +128,45 @@
 		height: auto;
 	}
 
+/*Schedule your next adventure "scheduley"*/
+.scheduley {
+	margin: 5em;
+		background-color: var(--header-background);
+		text-align: center;
+		margin: 5em;
+		color: #e0e0e0;
+	}
+	
+	.scheduley h2 {
+		font-size: 2.5rem;
+		margin-bottom: .5rem;
+		font-weight: bold;
+		margin: 1em;
+	}
+	
+/** schedule your next appointment**/
+
+.schedule {
+margin: 5em;
+	background-color: var(--accent2-color);
+	text-align: center;
+	margin: auto;
+}
+
+.schedule h2 {
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+
+/*history*/ 
+
+.history-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+}
 	/** History starts */
 
 	.history {
@@ -152,9 +191,31 @@
 
 	/* Join US on home page*/
 
-	/**********************adventures*******************/
+	
+/** adventure on contact page*/
+	
+.adventureguides {
+	display: grid;
+	margin: 5em;
+	align-items: center;
+	color:#01090c;
 
+}
+.adventureguides figure {
+	border:  #c0c0c0 solid;
+	max-width: 220px;
+	margin: auto;
+}
 
+/**********************adventures*******************/
+
+figcaption {
+	background-color: #19535F;
+	color: #fff;
+	font: italic smaller sans-serif;
+	padding: 3px;
+	text-align: center;
+}
 
 	.adventures {
 		display: flex;
@@ -264,12 +325,10 @@
 		background-color: var(--button-color-hover);
 	}
 
-	
-
-	
+/*footer for all pages*/
 
 	footer {
-		background-color: #333;
+		background-color: #918a8a;
 		color: #fff;
 		padding: 1rem;
 		display: grid;
