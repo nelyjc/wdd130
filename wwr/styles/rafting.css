@@ -195,18 +195,25 @@ margin: 5em;
 	
 .adventureguides {
 	display: grid;
-	margin: 2em;
-	align-items: center;
 	color:#01090c;
-	grid-auto-rows: 140;
-	background-color: var(--accent1-color)
-
+	background-color: var(--accent1-color);
+	grid-template-columns: repeat(3, 1fr);
+	margin: 3em 0;
+	
 }
 .adventureguides figure {
 	border:  #c0c0c0 solid;
-	max-width: 220px;
-	margin: auto;
+	grid-column: 1/4;
+	font-size: large;
+	background-color: var(--accent1-color);
 }
+.adventureguides h2 {
+	grid-column: 1/4;
+	font-size: large;
+	background-color: var(--accent1-color);
+}
+
+
 
 /***adventures page*******************/
 
@@ -262,7 +269,7 @@ figcaption {
 .adventuresabout {
 		margin: 10px;
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: repeat(5, 1fr);
 		gap: 1rem;
 		width: 1em;
 	}
@@ -270,8 +277,12 @@ figcaption {
 	.adventuresabout h2 {
 		font-size: large;
 		background-color: var(--accent1-color);
+		grid-column: 1/6;
+		
 	}
 	
+	/* end of adventures about*/ 
+
 figure {
 	
 		display: flex;
@@ -290,15 +301,15 @@ figure {
 
 /*tripsadventures*/
 .adventurestrips {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin: 15px;
-	max-width: fit-content;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 3em 0;
+	
 	
 }
 
-.adventuresstrips h2 {
+.adventurestrips h2 {
+	grid-column: 1/4;
 	font-size: large;
 	background-color: var(--accent1-color);
 }
@@ -372,6 +383,7 @@ th, td {
 	background-color: var(--accent1-color);
 	color: black;
 	font-size: large;
+	grid: (2 1fr);
 }
 /**2 pictures for homepage*/
 
