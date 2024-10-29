@@ -272,8 +272,8 @@ figcaption {
 		background-color: var(--accent1-color);
 	}
 	
-	figure {
-		
+figure {
+	
 		display: flex;
 		flex-flow: row;
 		padding: 5px;
