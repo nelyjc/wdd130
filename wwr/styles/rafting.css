@@ -109,6 +109,7 @@
 		left: 0;
 		right: 0;
 		text-align: center;
+		background-color: var(--header-background)
 
 	}
 
@@ -165,12 +166,12 @@ margin: 5em;
 .history-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	gap: 20px;
+	margin:  5em;
 }
 	/** History starts */
 
 	.history {
-		padding: 40px;
+		margin: 5em;
 		background-color: #005c7a;
 		text-align: center;
 		color: #e0e0e0;
