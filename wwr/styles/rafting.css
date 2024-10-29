@@ -293,8 +293,9 @@ figcaption {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin: 25px;
-	align-items: center;
+	margin: 15px;
+	max-width: fit-content;
+	
 }
 
 .adventuresstrips h2 {
@@ -302,14 +303,15 @@ figcaption {
 	background-color: var(--accent1-color);
 }
 
-figure {
-	
-	display: flex;
-	flex-flow: row;
-	max-width: 50px;
-	margin: 1em;
-}
 
+figure {	
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+	margin: .5em;
+	
+	
+}
 
 figcaption {
 	background-color: #19535F;
@@ -317,6 +319,32 @@ figcaption {
 	font: italic smaller sans-serif;
 	padding: 5px;
 	text-align: center;}
+
+.trips-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		gap: 1em 5px;
+		margin: 50px auto;
+	}
+table {
+		width: 100%;
+		border-collapse: collapse;
+		margin: 20px 0;
+		font-size: 18px;
+		text-align: left;
+		background-color: #ffffff;
+	}	
+	
+thead tr {
+		background-color: var(--header-background);
+		color: white;
+	}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #000000;
+}	
+	
 
 
 /**********************************/
