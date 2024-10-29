@@ -336,7 +336,7 @@ figcaption {
 	}
 
 	.newsletter p {
-		align: center;
+		text-align: center;
 		font-size: 1.2em;
 		color: var(--black);
 		margin: 1em 0 0 0;
