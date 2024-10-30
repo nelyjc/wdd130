@@ -389,10 +389,12 @@ th, td {
 
 		}
 .offerings {
+	display: grid;
+	grid: (2fr 1fr);
 	background-color: var(--accent1-color);
 	color: black;
 	font-size: large;
-	grid: (2fr 1fr);
+
 }
 /**2 pictures for homepage*/
 
