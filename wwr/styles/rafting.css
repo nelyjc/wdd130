@@ -392,7 +392,7 @@ th, td {
 	background-color: var(--accent1-color);
 	color: black;
 	font-size: large;
-	grid: (2 1fr);
+	grid: (2fr 1fr);
 }
 /**2 pictures for homepage*/
 
