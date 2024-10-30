@@ -248,9 +248,9 @@
 
 	.historytrips {
 		margin: 5em;
-		background-color: #032530;
+		background-color: #117596;
 		text-align: center;
-		color: #e0e0e0;
+		color: #ffffff;
 		border-radius: .5em;
 	}
 
@@ -268,6 +268,8 @@
 	}
 	.historytrips p {
 		font-size: large;
+		color: white;
+
 	}
 
 
