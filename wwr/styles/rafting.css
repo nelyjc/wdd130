@@ -434,16 +434,17 @@ th, td {
 		.card-caption {
 			font-size: 1.4rem;
 		}
-		
+	/* newsletter homepage*/
 
 	.newsletter {
+		display: grid;
 		grid-column: 4/9;
 		grid-row: 9/11;
 		justify-self: center;
 		justify-items: center;
-		display: flex;
-		flex-direction: column;
 		margin: 1em 0;
+		padding: 1.25rem;
+		
 	}
 
 	.newsletter-form {
@@ -453,6 +454,8 @@ th, td {
 		color: var(--white);
 		margin: 1em 0;
 		padding: 1em 0;
+		border-radius: 30px;
+		width: 35rem;
 	}
 
 	.newsletter p {
@@ -484,8 +487,10 @@ th, td {
 	}
 
 	.newsletter-form button {
-		background-color: var(--button-color);
-		padding: .5em 1em
+		background-color: white;
+		padding: 1em .25em;
+		margin: 1em;
+		border-radius: 30px;
 	}
 
 	.newsletter-form button:hover {
