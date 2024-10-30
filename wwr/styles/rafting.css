@@ -3,9 +3,16 @@
 		--secondary-color: #005c7a;
 		--accent1-color: #c3d5c6;
 		--accent2-color: #e0e0e0;
-
 		--header-background: #005c7a;
-	}
+	/* <uniquifier>: Use a unique and descriptive class name
+	<weight>: Use a value from 100 to 900 */ 
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+	
 
 	* {
 		margin: 0;
