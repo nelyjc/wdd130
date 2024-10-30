@@ -397,6 +397,7 @@ th, td {
 /**2 pictures for homepage*/
 
 		.card1 {
+			display: grid;
 			margin: 100px 0;
 			grid-row: 3;
 			display: flex;
