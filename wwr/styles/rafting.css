@@ -118,7 +118,9 @@
 		left: 0;
 		right: 0;
 		text-align: center;
-		background-color: var(--header-background)
+		background-color: var(--header-background);
+		border-radius: 30px;	
+		align-items: center;
 
 	}
 
@@ -390,7 +392,6 @@ th, td {
 		}
 .offerings {
 	display: grid;
-	grid: 2fr 1fr;
 	background-color: var(--accent1-color);
 	color: black;
 	font-size: large;
